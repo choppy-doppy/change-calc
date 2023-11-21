@@ -1,0 +1,13 @@
+# ninja log v5
+128	5144	7222896600761750	CMakeFiles/change_calc.dir/main.cpp.obj	4a4c1842536cf9da
+5154	5799	7222896607239219	change_calc.exe	9f6cbf2862538fd
+10	2565	7222898363237050	CMakeFiles/change_calc.dir/main.cpp.obj	4a4c1842536cf9da
+2566	3039	7222898367903274	change_calc.exe	9f6cbf2862538fd
+11	2667	7222921450777567	CMakeFiles/change_calc.dir/main.cpp.obj	4a4c1842536cf9da
+2668	3413	7222921458069066	change_calc.exe	9f6cbf2862538fd
+6	1193	7222922202540955	CMakeFiles/change_calc.dir/main.cpp.obj	4a4c1842536cf9da
+1194	1435	7222922204718520	change_calc.exe	9f6cbf2862538fd
+5	1476	7222922411392535	CMakeFiles/change_calc.dir/main.cpp.obj	4a4c1842536cf9da
+1479	1739	7222922414187636	change_calc.exe	9f6cbf2862538fd
+6	1013	7222922585970666	CMakeFiles/change_calc.dir/main.cpp.obj	4a4c1842536cf9da
+1013	1267	7222922588497256	change_calc.exe	9f6cbf2862538fd

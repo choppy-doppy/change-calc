@@ -1,0 +1,3 @@
+C:/Users/chop/Documents/GitHub/change-calc/cmake-build-debug/CMakeFiles/change_calc.dir
+C:/Users/chop/Documents/GitHub/change-calc/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/chop/Documents/GitHub/change-calc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
