@@ -30,9 +30,11 @@ int main () {
     double nickelVal = 0.05;
     // they killed pennies :(
 
-    double quartersDue = changeDue / quarterVal;
+    int quartersDue = changeDue / quarterVal;
+    int dimesDue = (changeDue - quarterVal * quartersDue) / dimeVal;
+    int nickelsDue = (changeDue - quarterVal * quartersDue - dimeVal * dimesDue) / nickelVal;
 
-
+    cout << quartersDue <<" "<< dimesDue <<" "<< nickelsDue <<" " << endl;
 
     system("pause");
 }
