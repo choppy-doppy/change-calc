@@ -4,8 +4,8 @@
 using namespace std;
 
 int main () {
-    float total;
-    float cash;
+    double total;
+    double cash;
 
     cout << "please input total" << endl;
 
@@ -15,15 +15,24 @@ int main () {
 
     cin >> cash;
 
-    float changeDue = cash - total;
+    double changeDue = cash - total;
+
+    if (changeDue == 0) {
+        cout << "no change due" << endl;
+        return 0;
+    } else if (changeDue < 0)
+        cout << "shotgun" << endl;
 
     cout << "change due: $" << changeDue << endl;
 
-    float quarterVal = 0.25;
-    float dimeVal = 0.10;
-    float nickelVal = 0.05;
+    double quarterVal = 0.25;
+    double dimeVal = 0.10;
+    double nickelVal = 0.05;
     // they killed pennies :(
 
-    if (changeDue / quarterVal == 0)
+    double quartersDue = changeDue / quarterVal;
 
+
+
+    system("pause");
 }
