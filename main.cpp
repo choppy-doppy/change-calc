@@ -24,9 +24,6 @@ int main () {
     float nickelVal = 0.05;
     // they killed pennies :(
 
-    float quarterDue = changeDue / quarterVal;
-    float dimeDue = changeDue / dimeVal;
-    float nickelDue = changeDue / nickelVal;
-    
+    if (changeDue / quarterVal == 0)
 
 }
