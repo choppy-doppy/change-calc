@@ -34,7 +34,9 @@ int main () {
     int dimesDue = (changeDue - quarterVal * quartersDue) / dimeVal;
     int nickelsDue = (changeDue - quarterVal * quartersDue - dimeVal * dimesDue) / nickelVal;
 
-    cout << quartersDue <<" "<< dimesDue <<" "<< nickelsDue <<" " << endl;
+    cout <<"Quarters: "<< quartersDue <<" Dimes: "<< dimesDue <<" Nickels: "<< nickelsDue << endl;
 
     system("pause");
 }
+
+
